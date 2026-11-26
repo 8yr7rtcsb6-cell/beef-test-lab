@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browser Test Lab</title>
+</head>
+<body>
+  <h1>Authorised Browser Test</h1>
+  <p>This page is part of a supervised experiment.</p>
+  <p id="browser"></p>
+  <p id="platform"></p>
+
+  <script>
+    document.getElementById("browser").textContent =
+      "Browser: " + navigator.userAgent;
+
+    document.getElementById("platform").textContent =
+      "Language: " + navigator.language;
+  </script>
+</body>
+</html>
